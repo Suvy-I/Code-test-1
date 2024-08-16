@@ -48,7 +48,7 @@ void split_list(int input_list[], int middle_value, int l)
 }
 int main()
 {
-	int arr[] = {12,43,53,12,2,75,5,67,35,2134,5,1,435,2,5646,678,53,45,25,47653,3,13,9};
-	int len = sizeof(arr) / sizeof(arr[0]);
-	split_list(arr, 400, len);
+	int arr1[] = {12,43,53,12,2,75,5,67,35,2134,5,1,435,2,5646,678,53,45,25,47653,3,13,9};
+	int len = sizeof(arr1) / sizeof(arr1[0]);
+	split_list(arr1, 400, len);
 }
